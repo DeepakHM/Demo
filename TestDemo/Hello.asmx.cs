@@ -18,9 +18,9 @@ namespace TestDemo
     {
 
         [WebMethod]
-        public string HelloWorld()
+        public string HelloWorld(string name)
         {
-            return "Hello World";
+            return "Hello World" + name;
         }
     }
 }
